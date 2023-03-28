@@ -1,0 +1,48 @@
+@Kopernicus:FOR[Ejected]
+{
+	Body
+	{
+		cacheFile = Ejected/Cache/Zeevenductus.bin
+		name = Zeevenductus
+		identifier = WWPJ/Zeevenductus
+		Template
+		{
+			name = Jool
+			removeAllPQSMods = False
+			//see: https://github.com/Kopernicus/kittopia-dumps/tree/master/Configs
+		}
+		Properties
+		{
+			displayName = Zeevenductus^N
+			radius = 5823200
+			geeASL = 1.73
+			tidallyLocked = True
+			ScienceValues
+            {
+
+            }
+		}
+		Orbit
+		{
+			referenceBody = WWPJ/Verra
+			color = 1,0.5,0.5,1
+			semiMajorAxis = 1020000000
+			eccentricity = 0.00261
+			longitudeOfAscendingNode = 37
+			argumentOfPeriapsis = 69.0
+			meanAnomalyAtEpochD = 3
+			inclination = 0
+		}
+		ScaledVersion
+		{
+ 			Material
+  			{
+				color = 1, 1, 1, 1
+				specColor = 0, 0, 0, 0
+				shininess = 0.215
+				//texture = 
+				//normals = 
+			}
+		}
+	}
+}
